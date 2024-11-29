@@ -1,0 +1,55 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Estilo de la tabla */
+.tabla-lociones {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tabla-lociones th, .tabla-lociones td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Encabezados de la tabla */
+.tabla-lociones th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+/* Filas de la tabla */
+.tabla-lociones tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilo para los botones de compra */
+.btn-comprar {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btn-comprar:hover {
+    background-color: #45a049;
+}
